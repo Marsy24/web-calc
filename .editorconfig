@@ -1,0 +1,38 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# топ-уровень файла EditorConfig
+root = true
+
+# Общие настройки для всех файлов
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Настройки для Markdown файлов
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
+
+# Настройки для файлов JSON
+[*.json]
+indent_size = 2
+
+# Настройки для файлов HTML
+[*.html]
+indent_size = 2
+
+# Настройки для файлов CSS и SCSS
+[*.css, *.scss]
+indent_size = 2
+
+# Настройки для файлов JavaScript и TypeScript
+[*.js, *.ts, *.jsx, *.tsx]
+indent_size = 2
+
+# Настройки для файлов YAML и YML
+[*.yaml, *.yml]
+indent_size = 2
